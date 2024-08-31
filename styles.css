@@ -751,8 +751,8 @@
   /* media queries */
   @media (max-width: 768px) {
     #hero {
-      background-size: contain; /* Make the image fit within the container */
-      background-position: top center; /* Adjust positioning as needed */
+      background-size: contain;
+      background-position: top center;
   }
     #header1 {
       width: 220px;
@@ -802,12 +802,12 @@
   }
   @media (max-width: 768px) {
     .hero-container {
-      padding: 10px; /* Adjust padding for smaller screens */
+      padding: 10px;
       margin-top: 15px;
     }
   
     .hero-container h1 {
-      font-size: 1.5em; /* Adjust font size for smaller screens */
+      font-size: 1.5em;
     }
   }
   @media (min-width: 1024px) {
@@ -825,7 +825,7 @@
   }
   @media (max-width: 480px) {
     #hero {
-        background-size: 100% auto; /* Scale the image to the container width */
-        background-position: top center; /* Adjust positioning as needed */
+        background-size: 100% auto;
+        background-position: top center;
     }
 }
