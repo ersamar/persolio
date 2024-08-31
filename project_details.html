@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/e0c2166f3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>        
+  <!-- left header / header1 -->
+  <div id="header1">
+    <div id="toggle-btn-header1" onclick="toggleHeader1()"><i class="fa-solid fa-bars-staggered mx-3"></i></div>
+        <div class="d-flex flex-column pt-5">
+            <div class="profile pt-5">
+                <img src="dp.avif" alt="" class="img-fluid rounded-circle mb-3" style="margin-top: 175px;">
+                <h3 class="text-center"><a href="/">Ersa Amar</a></h3>
+                <h6 class="text-center mb-3" style="color: #a9a9a9;">Full-Stack Developer</h6>
+                <div class="social-links text-center">
+                  <a class="btn-floating m-2" href="https://www.facebook.com/profile.php?id=61553536430307&mibextid=ZbWKwL" role="button"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn-floating m-2" href="https://www.instagram.com/developertobe_/" role="button"><i class="fab fa-instagram"></i></a>
+                  <a class="btn-floating m-2" href="https://www.linkedin.com/in/ersa-khan-91a865241/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn-floating m-2" href="https://github.com/ersamar" role="button"><i class="fab fa-github"></i></a>
+              </div>
+                <ul class="list-unstyled list1">
+                  <li class="my-2 mx-2"><strong class="float-left mr-5">Birthday</strong> <span class="float-right" style="color: #a9a9a9;">29 June 2002</span></li><br>
+                  <li class="my-2 mx-2"><strong class="float-left">Residence</strong> <span class="float-right" style="color: #a9a9a9;">Pakistan</span></li><br>
+                  <li class="my-2 mx-2"><strong class="float-left">City</strong> <span class="float-right" style="color: #a9a9a9;">Multan</span></li><br>
+                  <li class="my-2 mx-2 mb-4"><strong class="float-left">Age</strong> <span class="float-right" style="color: #a9a9a9;">21</span></li><br>
+                </ul>
+            </div>
+            </div>
+            <div class="container">
+              <span id="lang">HTML <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">CSS <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">Bootstrap <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">Javascript <span class="float-right">85%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="85"></span>
+              </div>
+              <span id="lang">jQuery <span class="float-right">80%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="80"></span>
+              </div>
+              <span id="lang">ReactJS <span class="float-right">90%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="90"></span>
+              </div>
+              <span id="lang">PHP <span class="float-right">80%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="80"></span>
+              </div>
+              <span id="lang">WORDPRESS <span class="float-right">70%</span></span>
+              <div class="animated-progress mb-4">
+                <span data-progress="70"></span>
+              </div>
+              <ul class="list-unstyled knowledge">
+                <li><i class="fa-solid fa-check mt-4"></i>&nbsp; <span>MySql</span></li><br>
+                <li><i class="fa-solid fa-check"></i>&nbsp; <span>NoSQL (MongoDB)</span></li><br>
+                <li><i class="fa-solid fa-check"></i>&nbsp; <span>UI/UX</span></li><br>
+              </ul>
+              <div class="text-center pb-3 cv" style="font-weight: bold;"><span>DOWNLOAD CV <a href="" download=""><i class="fa-solid fa-download fa-beat"></i></a></span></div>
+              </div>
+    </div>
+
+    <div id="main-content">
+        <section id="portfolio-details" class="portfolio-details">
+          <div class="container">
+    
+            <div class="row gy-4">
+    
+              <div class="col-lg-6">
+                <div class="portfolio-details-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+    
+                    <div class="swiper-slide">
+                      <img src="portfolio-details-1.jpg" alt="">
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <img src="portfolio-details-2.jpg" alt="">
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <img src="portfolio-details-3.jpg" alt="">
+                    </div>
+    
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+    
+              <div class="col-lg-5">
+                <div class="portfolio-info">
+                  <h3>Project information</h3>
+                  <ul>
+                    <li><strong>Category</strong>: Web design</li>
+                    <li><strong>Client</strong>: ASU Company</li>
+                    <li><strong>Project date</strong>: 01 March, 2020</li>
+                    <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                  </ul>
+              </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-description col-lg-11">
+                  <h2>This is an example of portfolio detail</h2>
+                  <p>
+                    Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                  </p>
+                </div>
+            </div>
+          </div>
+          </div>
+        </section>
+  </div>
+
+      <script>
+        function toggleHeader1() {
+            var header1 = document.getElementById('header1');
+            header1.classList.toggle('active');
+        }
+
+        function toggleHeader2() {
+            var header2 = document.getElementById('header2');
+            header2.classList.toggle('active');
+        }
+      </script>
+</body>
+</html>

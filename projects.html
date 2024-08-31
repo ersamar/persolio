@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/e0c2166f3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>        
+  <!-- left header / header1 -->
+  <div id="header1">
+    <div id="toggle-btn-header1" onclick="toggleHeader1()"><i class="fa-solid fa-bars-staggered mx-3"></i></div>
+        <div class="d-flex flex-column pt-5">
+            <div class="profile pt-5">
+                <img src="dp.avif" alt="" class="img-fluid rounded-circle mb-3" style="margin-top: 175px;">
+                <h3 class="text-center"><a href="index.html">Ersa Amar</a></h3>
+                <h6 class="text-center mb-3" style="color: #a9a9a9;">Full-Stack Developer</h6>
+                <div class="social-links text-center">
+                  <a class="btn-floating m-2" href="https://www.facebook.com/profile.php?id=61553536430307&mibextid=ZbWKwL" role="button"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn-floating m-2" href="https://www.instagram.com/developertobe_/" role="button"><i class="fab fa-instagram"></i></a>
+                  <a class="btn-floating m-2" href="https://www.linkedin.com/in/ersa-khan-91a865241/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn-floating m-2" href="https://github.com/ersamar" role="button"><i class="fab fa-github"></i></a>
+              </div>
+                <ul class="list-unstyled list1">
+                  <li class="my-2 mx-2"><strong class="float-left mr-5">Birthday</strong> <span class="float-right" style="color: #a9a9a9;">29 June 2002</span></li><br>
+                  <li class="my-2 mx-2"><strong class="float-left">Residence</strong> <span class="float-right" style="color: #a9a9a9;">Pakistan</span></li><br>
+                  <li class="my-2 mx-2"><strong class="float-left">City</strong> <span class="float-right" style="color: #a9a9a9;">Multan</span></li><br>
+                  <li class="my-2 mx-2 mb-4"><strong class="float-left">Age</strong> <span class="float-right" style="color: #a9a9a9;">21</span></li><br>
+                </ul>
+            </div>
+            </div>
+            <div class="container">
+              <span id="lang">HTML <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">CSS <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">Bootstrap <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">Javascript <span class="float-right">85%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="85"></span>
+              </div>
+              <span id="lang">jQuery <span class="float-right">80%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="80"></span>
+              </div>
+              <span id="lang">ReactJS <span class="float-right">90%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="90"></span>
+              </div>
+              <span id="lang">PHP <span class="float-right">80%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="80"></span>
+              </div>
+              <span id="lang">WORDPRESS <span class="float-right">70%</span></span>
+              <div class="animated-progress mb-4">
+                <span data-progress="70"></span>
+              </div>
+              <ul class="list-unstyled knowledge">
+                <li><i class="fa-solid fa-check mt-4"></i>&nbsp; <span>MySql</span></li><br>
+                <li><i class="fa-solid fa-check"></i>&nbsp; <span>NoSQL (MongoDB)</span></li><br>
+                <li><i class="fa-solid fa-check"></i>&nbsp; <span>UI/UX</span></li><br>
+              </ul>
+              <div class="text-center pb-3 cv" style="font-weight: bold;"><span>DOWNLOAD CV <a href="" download=""><i class="fa-solid fa-download fa-beat"></i></a></span></div>
+              </div>
+    </div>
+    <div id="main-content">
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+      
+              <div class="section-box my-5">
+                <h2>Projects</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              </div>
+      
+              <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                  <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Page</li>
+                    <li data-filter=".filter-web">Web</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="row portfolio-container">
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-page">
+                  <div class="portfolio-wrap">
+                    <img src="calc.png" class="img-fluid" alt="">
+                    <div class="portfolio-links">
+                      <a href="calc.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="fa-solid fa-plus"></i></a>
+                      <a href="project_details.html" title="More Details"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="web1.png" class="img-fluid" alt="">
+                    <div class="portfolio-links">
+                      <a href="web1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="fa-solid fa-plus"></i></a>
+                      <a href="project_details.html" title="More Details"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="web2.png" class="img-fluid" alt="">
+                    <div class="portfolio-links">
+                      <a href="web2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="fa-solid fa-plus"></i></a>
+                      <a href="project_details.html" title="More Details"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <img src="web3.png" class="img-fluid" alt="">
+                    <div class="portfolio-links">
+                      <a href="web3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="fa-solid fa-plus"></i></a>
+                      <a href="project_details.html" title="More Details"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="app1.jpeg" class="img-fluid" alt="">
+                    <div class="portfolio-links">
+                      <a href="app1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="fa-solid fa-plus"></i></a>
+                      <a href="project_details.html" title="More Details"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+          </section>
+    </div>
+
+     <!-- right header / header2 -->
+  <div id="header2">
+    <nav id="navbar" class="nav-menu navbar">
+        <ul>
+            <li><a href="index.html" class="nav-link scrollto active"><i class="fa-solid fa-house"></i><h5>Home</h5></a></li>
+            <li><a href="portfolio.html" class="nav-link scrollto"><i class="fa-solid fa-list-check"></i><h5>Portfolio</h5></a></li>
+            <li><a href="projects.html" class="nav-link scrollto"><i class="fa-solid fa-graduation-cap"></i><h5>Projects</h5></a></li>
+        </ul>
+    </nav>
+</div>
+<div id="toggle-btn" onclick="toggleHeader2()">
+    <i class="fa-solid fa-bars mx-3"></i>
+</div>
+
+
+<script>
+    function toggleHeader1() {
+            var header1 = document.getElementById('header1');
+            header1.classList.toggle('active');
+        }
+
+        function toggleHeader2() {
+            var header2 = document.getElementById('header2');
+            header2.classList.toggle('active');
+        }
+
+        window.addEventListener('load', () => {
+            let portfolioContainer = $('.portfolio-container');
+            if (portfolioContainer.length) {
+                let portfolioIsotope = new Isotope(portfolioContainer[0], {
+                    itemSelector: '.portfolio-item'
+                });
+
+                let portfolioFilters = $('#portfolio-flters li');
+
+                portfolioFilters.on('click', function(e) {
+                    e.preventDefault();
+                    portfolioFilters.removeClass('filter-active');
+                    $(this).addClass('filter-active');
+
+                    portfolioIsotope.arrange({
+                        filter: $(this).data('filter')
+                    });
+
+                    portfolioIsotope.on('arrangeComplete', function() {
+                        AOS.refresh();
+                    });
+                });
+            }
+        });
+
+        // Initiate portfolio lightbox
+  const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox'
+  });
+</script>
+</body>
+</html>

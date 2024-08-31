@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/e0c2166f3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <style>
+      #hero {
+        background-image: url("bg2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+</head>
+<body> 
+  <!-- left header / header1 -->
+  <div id="header1">
+    <div id="toggle-btn-header1" onclick="toggleHeader1()"><i class="fa-solid fa-bars-staggered mx-3"></i></div>
+        <div class="d-flex flex-column pt-5">
+            <div class="profile pt-5">
+                <img src="dp.avif" alt="" class="img-fluid rounded-circle mb-3" style="margin-top: 175px;">
+                <h3 class="text-center"><a href="/">Ersa Amar</a></h3>
+                <h6 class="text-center mb-3" style="color: #a9a9a9;">Full-Stack Developer</h6>
+                <div class="social-links text-center">
+                  <a class="btn-floating m-2" href="https://www.facebook.com/profile.php?id=61553536430307&mibextid=ZbWKwL" role="button"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn-floating m-2" href="https://www.instagram.com/developertobe_/" role="button"><i class="fab fa-instagram"></i></a>
+                  <a class="btn-floating m-2" href="https://www.linkedin.com/in/ersa-khan-91a865241/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn-floating m-2" href="https://github.com/ersamar" role="button"><i class="fab fa-github"></i></a>
+              </div>
+                <ul class="list-unstyled list1">
+                  <li class="my-2 mx-2"><strong class="float-left mr-5">Birthday</strong> <span class="float-right" style="color: #a9a9a9;">29 June 2002</span></li><br>
+                  <li class="my-2 mx-2"><strong class="float-left">Residence</strong> <span class="float-right" style="color: #a9a9a9;">Pakistan</span></li><br>
+                  <li class="my-2 mx-2"><strong class="float-left">City</strong> <span class="float-right" style="color: #a9a9a9;">Multan</span></li><br>
+                  <li class="my-2 mx-2 mb-4"><strong class="float-left">Age</strong> <span class="float-right" style="color: #a9a9a9;">21</span></li><br>
+                </ul>
+            </div>
+            </div>
+            <div class="container">
+              <span id="lang">HTML <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">CSS <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">Bootstrap <span class="float-right">100%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="100"></span>
+              </div>
+              <span id="lang">Javascript <span class="float-right">85%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="85"></span>
+              </div>
+              <span id="lang">jQuery <span class="float-right">80%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="80"></span>
+              </div>
+              <span id="lang">ReactJS <span class="float-right">90%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="90"></span>
+              </div>
+              <span id="lang">PHP <span class="float-right">80%</span></span>
+              <div class="animated-progress mb-2">
+                <span data-progress="80"></span>
+              </div>
+              <span id="lang">WORDPRESS <span class="float-right">70%</span></span>
+              <div class="animated-progress mb-4">
+                <span data-progress="70"></span>
+              </div>
+              <ul class="list-unstyled knowledge">
+                <li><i class="fa-solid fa-check mt-4"></i>&nbsp; <span>MySql</span></li><br>
+                <li><i class="fa-solid fa-check"></i>&nbsp; <span>NoSQL (MongoDB)</span></li><br>
+                <li><i class="fa-solid fa-check"></i>&nbsp; <span>UI/UX</span></li><br>
+              </ul>
+              <div class="text-center pb-3 cv" style="font-weight: bold;"><span>DOWNLOAD CV <a href="" download=""><i class="fa-solid fa-download fa-beat"></i></a></span></div>
+              </div>
+    </div>
+
+  <!---------------- Main Content Section ---------------->
+  <div id="main-content" style="display: none;">
+      <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+          <!-- home section -->
+          <div class="hero-container">
+            <div style="margin: 110px 0px 0px 20px;">
+              <h1>Ersa Amar</h1>
+              <p id="hero-text">I'm a <span id="changing-text"></span></p>
+              <button type="button" class="btn btn-dark hero-btn"><a href="/projects">Explore</a>
+              </button>
+            </div>
+          </div>
+      </section>
+      <!-- counter section -->
+      <section class="wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+      <div id="projectFacts" class="sectionClass">
+          <div class="fullWidth eight columns">
+              <div class="projectFactsWrap ">
+                  <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+                      <p id="number1" class="number">12</p>
+                      <span></span>
+                      <p>Completed Projects</p>
+                  </div>
+                  <div class="item wow fadeInUpBig animated animated" data-number="100" style="visibility: visible;">
+                      <p id="number2" class="number">100</p>
+                      <span></span>
+                      <p>Happy clients</p>
+                  </div>
+                  <div class="item wow fadeInUpBig animated animated" data-number="2" style="visibility: visible;">
+                      <p id="number3" class="number">2</p>
+                      <span></span>
+                      <p>Years of Experience</p>
+                  </div>
+                  <div class="item wow fadeInUpBig animated animated" data-number="1000" style="visibility: visible;">
+                      <p id="number4" class="number">1000</p>
+                      <span></span>
+                      <p>Hours of Support</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+      <!-- services section -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-box">
+            <h2>Services</h2>
+          </div>
+          <div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div class="col-lg-3 mx-4 my-4 pt-4">
+              <strong style="color: #fff; font-size: 19px; font-weight: bold;">Front-end Development</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorum voluptatum ab saepe deleniti ipsam.</p>
+              <a href="">GET SERVICE <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="col-lg-3 mx-4 my-4 pt-4">
+              <strong style="color: #fff; font-size: 19px; font-weight: bold;">Back-end Development</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorum voluptatum ab saepe deleniti ipsam.</p>
+              <a href="">GET SERVICE <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="col-lg-3 mx-4 my-4 pt-4">
+              <strong style="color: #fff; font-size: 19px; font-weight: bold;">UI / UX</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorum voluptatum ab saepe deleniti ipsam.</p>
+              <a href="">GET SERVICE <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div class="col-lg-3 mx-4 my-4 pt-4">
+              <strong style="color: #fff; font-size: 19px; font-weight: bold;">Landing Page</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorum voluptatum ab saepe deleniti ipsam.</p>
+              <a href="">GET SERVICE <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="col-lg-3 mx-4 my-4 pt-4">
+              <strong style="color: #fff; font-size: 19px; font-weight: bold;">Project Development</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorum voluptatum ab saepe deleniti ipsam.</p>
+              <a href="">GET SERVICE <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="col-lg-3 mx-4 my-4 pt-4">
+              <strong style="color: #fff; font-size: 19px; font-weight: bold;">WordPress</strong>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorum voluptatum ab saepe deleniti ipsam.</p>
+              <a href="">GET SERVICE <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing section -->
+      <section id="pricing" class="pricing">
+        <div class="container">
+          <div class="section-box my-5">
+            <h2>Pricing</h2>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-3 mx-4 my-3 text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+              <strong>Starter</strong>
+              <h2 class="text-center">$ <span>FREE</span> hour <sup>*</sup></h2>
+              <ul class="list-unstyled text-center" style="border: none; line-height: 3;">
+                <li><i class="fa-solid fa-check"></i>&nbsp; UI Design</li>
+                <li style="color: #a9a9a9;"><i class="fa-solid fa-x"></i>&nbsp; Backend Development</li>
+                <li style="color: #a9a9a9;"><i class="fa-solid fa-x"></i>&nbsp; SEO Optimization</li>
+                <li style="color: #a9a9a9;"><i class="fa-solid fa-x"></i>&nbsp; WordPress Integration</li>
+              </ul>
+              <button class="btn btn-secondary my-3" type="button"><a href="">GET PLAN</a></button>
+            </div>
+            <div class="col-lg-3 mx-3 my-3 text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+              <strong>Per hour</strong>
+              <h2 class="text-center">$ <span>30</span> hour</h2>
+              <ul class="list-unstyled text-center" style="border: none; line-height: 3;">
+                <li><i class="fa-solid fa-check"></i>&nbsp; UI Design</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp; Backend Development</li>
+                <li style="color: #a9a9a9;"><i class="fa-solid fa-x"></i>&nbsp; SEO Optimization</li>
+                <li style="color: #a9a9a9;"><i class="fa-solid fa-x"></i>&nbsp; WordPress Integration</li>
+              </ul>
+              <button class="btn btn-secondary my-3" type="button"><a href="">GET PLAN</a></button>
+            </div>
+            <div class="col-lg-3 mx-3 my-3 text-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <strong>Full time</strong>
+              <h2 class="text-center">$ <span>2555</span> hour<h2>
+              <ul class="list-unstyled text-center" style="border: none; line-height: 3;">
+                <li><i class="fa-solid fa-check"></i>&nbsp; UI Design</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp; Backend Development</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp; SEO Optimization</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp; WordPress Integration</li>
+              </ul>
+              <button class="btn btn-secondary my-3" type="button"><a href="">GET PLAN</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section id="contact" class="contact">
+          <div class="container">
+            <div class="section-box my-5">
+              <h2>Contact</h2>
+            </div>
+            <div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+              <div class="col-lg-10 mt-5 mt-lg-0 d-flex align-items-stretch">
+                <form action="database/contact.php" method="post" role="form" class="php-email-form mt-3">
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label for="name">Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required autocomplete="off">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="name">Email</label>
+                      <input type="email" class="form-control" name="email" id="email" required autocomplete="off">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" required autocomplete="off">
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea class="form-control" name="message" rows="7" required autocomplete="off"></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Message sent. Thanks!</div>
+                  </div>
+                  <div class="text-center"><button type="submit" class="btn btn-secondary">Send</button></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+  <!-- footer -->
+  <div class="container-fluid">
+    <div class="row footer">
+        <div class="col-lg-12 text-center pt-3">
+            <i class="fa-regular fa-copyright"></i> 2023 ERSA AMAR. All rights reserved.
+        </div>
+    </div>
+</div>
+  </div>
+
+
+  <!-- right header / header2 -->
+  <div id="header2">
+    <nav id="navbar" class="nav-menu navbar">
+        <ul>
+            <li><a href="index.html" class="nav-link scrollto active"><i class="fa-solid fa-house"></i><h5>Home</h5></a></li>
+            <li><a href="portfolio.html" class="nav-link scrollto"><i class="fa-solid fa-list-check"></i><h5>Portfolio</h5></a></li>
+            <li><a href="projects.html" class="nav-link scrollto"><i class="fa-solid fa-graduation-cap"></i><h5>Projects</h5></a></li>
+        </ul>
+    </nav>
+</div>
+<div id="toggle-btn" onclick="toggleHeader2()">
+    <i class="fa-solid fa-bars mx-3"></i>
+</div>
+
+
+<script>
+    function toggleHeader1() {
+            var header1 = document.getElementById('header1');
+            header1.classList.toggle('active');
+        }
+
+        function toggleHeader2() {
+            var header2 = document.getElementById('header2');
+            header2.classList.toggle('active');
+        }
+        function showLoader() {
+    document.getElementById('loader').style.display = 'flex';
+}
+
+function hideLoader() {
+    document.getElementById('loader').style.display = 'none';
+}
+</script>
+</body>
+</html>
